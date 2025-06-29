@@ -23,3 +23,24 @@ A lightweight and efficient API built with **FastAPI** for performing basic math
 ```bash
 git clone https://github.com/your-username/fast_api_operations.git
 cd fast_api_operations
+```
+
+### 2.Create a virtual environment (optional but recommended)
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the application
+
+```bash
+uvicorn main:app --reload
+```
+
